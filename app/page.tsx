@@ -374,7 +374,7 @@ export default function Home() {
                         
                         <div className="flex flex-col md:flex-row items-center justify-center gap-6 relative z-10">
                             {/* Phone Contact */}
-                            <a href="tel:03042729797" className="group flex items-center gap-4 bg-white text-ink border-2 border-ink p-4 rounded-xl shadow-[4px_4px_0px_#1e293b] hover:shadow-[6px_6px_0px_#f59e0b] hover:-translate-y-1 transition-all w-full md:w-auto">
+                            <a href="https://wa.me/923042729797" target="_blank" rel="noopener noreferrer" className="group flex items-center gap-4 bg-white text-ink border-2 border-ink p-4 rounded-xl shadow-[4px_4px_0px_#1e293b] hover:shadow-[6px_6px_0px_#f59e0b] hover:-translate-y-1 transition-all w-full md:w-auto">
                                 <div className="w-12 h-12 rounded-full bg-green-100 flex items-center justify-center text-green-600 border-2 border-ink">
                                     <i className="fas fa-phone-alt"></i>
                                 </div>
@@ -385,7 +385,7 @@ export default function Home() {
                             </a>
                             
                             {/* Email Contact */}
-                            <a href="mailto:itqantechsolution@gmail.com" className="group flex items-center gap-4 bg-white text-ink border-2 border-ink p-4 rounded-xl shadow-[4px_4px_0px_#1e293b] hover:shadow-[6px_6px_0px_#f59e0b] hover:-translate-y-1 transition-all w-full md:w-auto">
+                            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=itqantechsolution@gmail.com" target="_blank" rel="noopener noreferrer" className="group flex items-center gap-4 bg-white text-ink border-2 border-ink p-4 rounded-xl shadow-[4px_4px_0px_#1e293b] hover:shadow-[6px_6px_0px_#f59e0b] hover:-translate-y-1 transition-all w-full md:w-auto">
                                 <div className="w-12 h-12 rounded-full bg-blue-100 flex items-center justify-center text-blue-600 border-2 border-ink">
                                     <i className="fas fa-envelope"></i>
                                 </div>
