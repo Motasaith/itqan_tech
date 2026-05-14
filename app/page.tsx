@@ -242,6 +242,81 @@ export default function Home() {
                 </div>
             </section>
 
+            <section id="reviews" className="py-20 relative z-10">
+                <div className="max-w-7xl mx-auto px-6">
+                    <div className="text-center mb-16 reveal" ref={addToRefs}>
+                        <span className="font-handwriting text-3xl text-primary block mb-2 transform rotate-2">What our clients say</span>
+                        <h2 className="font-heading text-4xl md:text-5xl font-bold mb-4 text-ink">Trusted by <span className="highlight">Thousands!</span></h2>
+                        <p className="text-slate-600">Real reviews from real students who got their work done.</p>
+                    </div>
+
+                    <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+                        {/* Review 1 */}
+                        <div className="sketch-card p-8 reveal" ref={addToRefs}>
+                            <div className="flex gap-1 mb-4">
+                                <i className="fas fa-star text-accent"></i>
+                                <i className="fas fa-star text-accent"></i>
+                                <i className="fas fa-star text-accent"></i>
+                                <i className="fas fa-star text-accent"></i>
+                                <i className="fas fa-star text-accent"></i>
+                            </div>
+                            <p className="text-slate-600 italic mb-6 font-handwriting text-lg">"Mainay is say thesis likhwai aur 4.0 GPA lai! Highly recommended for all students struggling with assignments. 🥇"</p>
+                            <div className="flex items-center gap-4">
+                                <div className="w-12 h-12 rounded-full bg-blue-100 border-2 border-ink flex items-center justify-center text-primary font-bold text-lg">
+                                    <i className="fas fa-user-graduate"></i>
+                                </div>
+                                <div>
+                                    <p className="font-heading font-bold text-ink">Ahmed K.</p>
+                                    <p className="text-xs text-slate-500">BS Computer Science</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        {/* Review 2 */}
+                        <div className="sketch-card p-8 reveal delay-100" ref={addToRefs}>
+                            <div className="flex gap-1 mb-4">
+                                <i className="fas fa-star text-accent"></i>
+                                <i className="fas fa-star text-accent"></i>
+                                <i className="fas fa-star text-accent"></i>
+                                <i className="fas fa-star text-accent"></i>
+                                <i className="fas fa-star text-accent"></i>
+                            </div>
+                            <p className="text-slate-600 italic mb-6 font-handwriting text-lg">"Unka CV design next level tha! Muqabla mein sabse strong profile bana. Now I am placed at a multinational company! 💼"</p>
+                            <div className="flex items-center gap-4">
+                                <div className="w-12 h-12 rounded-full bg-emerald-100 border-2 border-ink flex items-center justify-center text-emerald-600 font-bold text-lg">
+                                    <i className="fas fa-user-tie"></i>
+                                </div>
+                                <div>
+                                    <p className="font-heading font-bold text-ink">Fatima R.</p>
+                                    <p className="text-xs text-slate-500">Fresh Graduate</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        {/* Review 3 */}
+                        <div className="sketch-card p-8 reveal delay-200" ref={addToRefs}>
+                            <div className="flex gap-1 mb-4">
+                                <i className="fas fa-star text-accent"></i>
+                                <i className="fas fa-star text-accent"></i>
+                                <i className="fas fa-star text-accent"></i>
+                                <i className="fas fa-star text-accent"></i>
+                                <i className="fas fa-star text-accent"></i>
+                            </div>
+                            <p className="text-slate-600 italic mb-6 font-handwriting text-lg">"App development karwai太原 mein! Flutter mein banwaya aur play store mein publish karwaya. Best decision ever! 📱🔥"</p>
+                            <div className="flex items-center gap-4">
+                                <div className="w-12 h-12 rounded-full bg-purple-100 border-2 border-ink flex items-center justify-center text-purple-600 font-bold text-lg">
+                                    <i className="fas fa-user"></i>
+                                </div>
+                                <div>
+                                    <p className="font-heading font-bold text-ink">Hassan M.</p>
+                                    <p className="text-xs text-slate-500">Entrepreneur</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
             <section id="services" className="py-24 relative z-10">
                 <div className="max-w-7xl mx-auto px-6">
                     <div className="text-center mb-20 reveal" ref={addToRefs}>
