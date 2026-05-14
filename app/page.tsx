@@ -260,7 +260,7 @@ export default function Home() {
                                 <i className="fas fa-star text-accent"></i>
                                 <i className="fas fa-star text-accent"></i>
                             </div>
-                            <p className="text-slate-600 italic mb-6 font-handwriting text-lg">"Mainay is say thesis likhwai aur 4.0 GPA lai! Highly recommended for all students struggling with assignments. 🥇"</p>
+                            <p className="text-slate-600 italic mb-6 font-handwriting text-lg">"Mainay is say thesis likhwai aur 3.8 GPA li! Highly recommended for all students. 🥇"</p>
                             <div className="flex items-center gap-4">
                                 <div className="w-12 h-12 rounded-full bg-blue-100 border-2 border-ink flex items-center justify-center text-primary font-bold text-lg">
                                     <i className="fas fa-user-graduate"></i>
@@ -281,7 +281,7 @@ export default function Home() {
                                 <i className="fas fa-star text-accent"></i>
                                 <i className="fas fa-star text-accent"></i>
                             </div>
-                            <p className="text-slate-600 italic mb-6 font-handwriting text-lg">"Bahut hi professional CV banwaya! University mein bhi strong profile banaya aur sabse best design tha! 💼"</p>
+                            <p className="text-slate-600 italic mb-6 font-handwriting text-lg">"Bahut hi professional CV banai ha! Software House mein bhi strong profile bani aur sabse best design tha! 💼"</p>
                             <div className="flex items-center gap-4">
                                 <div className="w-12 h-12 rounded-full bg-emerald-100 border-2 border-ink flex items-center justify-center text-emerald-600 font-bold text-lg">
                                     <i className="fas fa-user-tie"></i>
@@ -302,7 +302,7 @@ export default function Home() {
                                 <i className="fas fa-star text-accent"></i>
                                 <i className="fas fa-star text-accent"></i>
                             </div>
-                            <p className="text-slate-600 italic mb-6 font-handwriting text-lg">"App development karwai University mein! Flutter mein banwaya aur play store mein publish karwaya. Best decision ever! 📱🔥"</p>
+                            <p className="text-slate-600 italic mb-6 font-handwriting text-lg">"App development karwai mene! Flutter mein banwaya aur play store mein publish karwaya. Best decision ever! 📱🔥"</p>
                             <div className="flex items-center gap-4">
                                 <div className="w-12 h-12 rounded-full bg-purple-100 border-2 border-ink flex items-center justify-center text-purple-600 font-bold text-lg">
                                     <i className="fas fa-user"></i>
