@@ -395,7 +395,7 @@ export default function Home() {
                             <div className="space-y-6">
                                 <div className="sketch-card p-6 flex items-start gap-5 group border-primary">
                                     <div className="mt-1 w-12 h-12 rounded-full border-2 border-slate-300 flex items-center justify-center text-slate-500 group-hover:bg-primary group-hover:text-white group-hover:border-ink transition-all">
-                                        <i className="fab fa-flutter text-lg"></i>
+                                        <i className="fas fa-rocket text-lg"></i>
                                     </div>
                                     <div>
                                         <h4 className="font-heading text-xl font-bold text-ink mb-1">App Development</h4>
