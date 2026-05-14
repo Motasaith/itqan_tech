@@ -77,9 +77,7 @@ export default function Home() {
                 <div className="max-w-7xl mx-auto px-6 py-4">
                     <div className="flex items-center justify-between">
                         <a href="#" className="flex items-center gap-3 group">
-                            <div className="w-10 h-10 rounded-lg border-2 border-ink bg-primary flex items-center justify-center text-white font-bold text-xl sketch-card transform -rotate-3 group-hover:rotate-3 transition-transform">
-                                IT
-                            </div>
+                            <img src="/logo.png" alt="ITQAN TECH Logo" className="w-12 h-12 object-contain transform -rotate-3 group-hover:rotate-3 transition-transform drop-shadow-md" />
                             <span className="font-heading font-extrabold text-2xl tracking-tight text-ink">ITQAN <span className="text-primary">TECH</span></span>
                         </a>
 
@@ -478,6 +476,7 @@ export default function Home() {
                 <div className="max-w-7xl mx-auto px-6">
                     <div className="flex flex-col md:flex-row justify-between items-center gap-6">
                         <div className="flex items-center gap-2">
+                            <img src="/logo.png" alt="ITQAN TECH Logo" className="w-10 h-10 object-contain" />
                             <span className="font-heading font-extrabold text-2xl tracking-tight text-ink">ITQAN <span className="text-primary">TECH</span></span>
                         </div>
                         
