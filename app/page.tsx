@@ -302,7 +302,7 @@ export default function Home() {
                                 <i className="fas fa-star text-accent"></i>
                                 <i className="fas fa-star text-accent"></i>
                             </div>
-                            <p className="text-slate-600 italic mb-6 font-handwriting text-lg">"App development karwai太原 mein! Flutter mein banwaya aur play store mein publish karwaya. Best decision ever! 📱🔥"</p>
+                            <p className="text-slate-600 italic mb-6 font-handwriting text-lg">"App development karwai University mein! Flutter mein banwaya aur play store mein publish karwaya. Best decision ever! 📱🔥"</p>
                             <div className="flex items-center gap-4">
                                 <div className="w-12 h-12 rounded-full bg-purple-100 border-2 border-ink flex items-center justify-center text-purple-600 font-bold text-lg">
                                     <i className="fas fa-user"></i>
