@@ -448,23 +448,23 @@ export default function Home() {
                         <div className="flex flex-col md:flex-row items-center justify-center gap-6 relative z-10">
                             {/* Phone Contact */}
                             <a href="https://wa.me/923042729797" target="_blank" rel="noopener noreferrer" className="group flex items-center gap-4 bg-white text-ink border-2 border-ink p-4 rounded-xl shadow-[4px_4px_0px_#1e293b] hover:shadow-[6px_6px_0px_#f59e0b] hover:-translate-y-1 transition-all w-full md:w-auto">
-                                <div className="w-12 h-12 rounded-full bg-green-100 flex items-center justify-center text-green-600 border-2 border-ink">
+                                <div className="w-12 h-12 rounded-full bg-green-100 flex items-center justify-center text-green-600 border-2 border-ink flex-shrink-0">
                                     <i className="fas fa-phone-alt"></i>
                                 </div>
-                                <div className="text-left">
+                                <div className="text-left min-w-0">
                                     <p className="text-xs text-slate-500 uppercase font-bold tracking-wider">WhatsApp / Call</p>
-                                    <p className="text-xl font-heading font-extrabold">0304 2729797</p>
+                                    <p className="text-lg sm:text-xl font-heading font-extrabold whitespace-nowrap">0304 2729797</p>
                                 </div>
                             </a>
                             
                             {/* Email Contact */}
                             <a href="https://mail.google.com/mail/?view=cm&fs=1&to=itqantechsolution@gmail.com" target="_blank" rel="noopener noreferrer" className="group flex items-center gap-4 bg-white text-ink border-2 border-ink p-4 rounded-xl shadow-[4px_4px_0px_#1e293b] hover:shadow-[6px_6px_0px_#f59e0b] hover:-translate-y-1 transition-all w-full md:w-auto">
-                                <div className="w-12 h-12 rounded-full bg-blue-100 flex items-center justify-center text-blue-600 border-2 border-ink">
+                                <div className="w-12 h-12 rounded-full bg-blue-100 flex items-center justify-center text-blue-600 border-2 border-ink flex-shrink-0">
                                     <i className="fas fa-envelope"></i>
                                 </div>
-                                <div className="text-left">
+                                <div className="text-left min-w-0">
                                     <p className="text-xs text-slate-500 uppercase font-bold tracking-wider">Email Us</p>
-                                    <p className="text-lg font-heading font-extrabold truncate w-48 sm:w-auto">itqantechsolution@gmail.com</p>
+                                    <p className="text-sm sm:text-lg font-heading font-extrabold break-all sm:break-normal">itqantechsolution@gmail.com</p>
                                 </div>
                             </a>
                         </div>
