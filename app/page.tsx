@@ -281,7 +281,7 @@ export default function Home() {
                                 <i className="fas fa-star text-accent"></i>
                                 <i className="fas fa-star text-accent"></i>
                             </div>
-                            <p className="text-slate-600 italic mb-6 font-handwriting text-lg">"Unka CV design next level tha! Muqabla mein sabse strong profile bana. Now I am placed at a multinational company! 💼"</p>
+                            <p className="text-slate-600 italic mb-6 font-handwriting text-lg">"Unka CV design next level tha! Sabse strong profile bana, ab multinational mein kaam kar rahi hoon! 💼"</p>
                             <div className="flex items-center gap-4">
                                 <div className="w-12 h-12 rounded-full bg-emerald-100 border-2 border-ink flex items-center justify-center text-emerald-600 font-bold text-lg">
                                     <i className="fas fa-user-tie"></i>
