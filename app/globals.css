@@ -1,0 +1,88 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background-color: #fdfbf7;
+    color: #1e293b;
+    overflow-x: hidden;
+}
+
+/* Custom Notebook Background Pattern */
+.bg-notebook {
+    background-size: 40px 40px;
+}
+
+/* The Hand-drawn Card Effect (Organic Borders) */
+.sketch-card {
+    background: white;
+    border: 2px solid #1e293b;
+    border-radius: 8px 255px 10px 15px / 255px 12px 225px 8px;
+    box-shadow: 6px 6px 0px rgba(79, 70, 229, 0.2);
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.sketch-card:hover {
+    transform: translate(-4px, -4px) rotate(-1deg);
+    box-shadow: 10px 10px 0px rgba(79, 70, 229, 0.6);
+}
+
+.sketch-button {
+    border: 2px solid #1e293b;
+    border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+    transition: all 0.3s ease;
+}
+
+.sketch-button:hover {
+    transform: translate(-2px, -2px);
+    box-shadow: 4px 4px 0px #1e293b;
+}
+
+/* Highlight text effect */
+.highlight {
+    position: relative;
+    display: inline-block;
+    z-index: 1;
+}
+.highlight::after {
+    content: '';
+    position: absolute;
+    bottom: 2px;
+    left: -2%;
+    width: 104%;
+    height: 40%;
+    background-color: #fbd38d; /* Soft yellow highlight */
+    z-index: -1;
+    transform: rotate(-1deg);
+    border-radius: 3px;
+}
+
+/* Scroll Reveal Animations */
+.reveal {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: all 0.8s cubic-bezier(0.5, 0, 0, 1);
+}
+.reveal.active {
+    opacity: 1;
+    transform: translateY(0);
+}
+.delay-100 { transition-delay: 100ms; }
+.delay-200 { transition-delay: 200ms; }
+
+/* Floating animations for doodles */
+@keyframes float-slow {
+    0%, 100% { transform: translateY(0) rotate(0deg); }
+    50% { transform: translateY(-15px) rotate(3deg); }
+}
+.animate-float { animation: float-slow 6s ease-in-out infinite; }
+.animate-float-delayed { animation: float-slow 7s ease-in-out 2s infinite; }
+
+/* Hand-drawn SVG stroke styling */
+.doodle-stroke {
+    stroke: #64748b;
+    stroke-width: 2.5;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    fill: none;
+}
